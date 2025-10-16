@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<templates>
+  	<t id="1" lng="ru" title="Новая страница (UA)"/>
+  	<t id="2" lng="ru" title="Новая страница (RU)"/>
+  	<t id="99" title="Popup окно"/>
+</templates>

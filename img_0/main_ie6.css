@@ -1,0 +1,12 @@
+#content_top div {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img_0/content_top.png', sizingMethod='scale');
+}
+#content_bot div {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img_0/content_bot.png', sizingMethod='scale');
+}
+#head_shadow div.bg {
+	background-image: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img_0/head_shadow.png', sizingMethod='scale');
+}

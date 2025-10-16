@@ -1,0 +1,15 @@
+div.EBPN1 {border: 1px dashed #44C73D;}
+div.EBPT1 {border: 1px dashed #44C73D;}
+
+
+div.block1 {border: 1px dashed #44C73D; margin: 0px; padding: 0px;}
+div.block2 {border: 1px dashed red; margin: 0px; padding: 0px;}
+
+
+.t0 {border: 1px dashed gray;}
+.t1, .t1 td {border: 1px dashed gray;}
+.t2 td {border: 1px dashed gray;}
+
+
+.imagetb {border: 1px solid #F0EEE6; background-color: #F0EEE6;}
+.imagetbpress {border-bottom: 1px solid #D7D7C9; border-right: 1px solid #D7D7C9; border-left: 1px solid #A3A39D; border-top: 1px solid #A3A39D; background-color: #F5F4EF;}

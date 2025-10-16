@@ -1,0 +1,210 @@
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++ Стандартная форма "Обратная связь" 1280, тип 1 ++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*  Выбрать нужный ЦВЕТ:  */
+/*+++++++++++++ ЦВЕТ: Коричневый 1 ++++++++++++++++++*/
+form.standart, form.standart input[type=submit] {
+	/*border: 1px solid #c39058;*/
+}
+form.standart {
+background: #ece3cb; /* Old browsers */
+background: -moz-linear-gradient(left,  #ece3cb 0%, #fef8e6 50%, #fef8e6 50%, #ece3cb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ece3cb), color-stop(50%,#fef8e6), color-stop(50%,#fef8e6), color-stop(100%,#ece3cb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ece3cb 0%,#fef8e6 50%,#fef8e6 50%,#ece3cb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ece3cb 0%,#fef8e6 50%,#fef8e6 50%,#ece3cb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ece3cb 0%,#fef8e6 50%,#fef8e6 50%,#ece3cb 100%); /* IE10+ */
+background: linear-gradient(to right,  #ece3cb 0%,#fef8e6 50%,#fef8e6 50%,#ece3cb 100%); /* W3C */
+filter: none; /* IE6-9 */
+color: #2c3401;
+}
+form.standart input[type=submit] {
+	background-color: #6d8f2b;
+	color: #fff;
+}
+form.standart input[type=submit]:hover {
+	background-color: #a3cc2b;
+}
+form.standart div.h {
+	color: #725c48;
+}
+form.standart hr {
+border-top: 1px solid #ffffff;
+border-bottom: 1px solid #cfc5aa;
+}
+/*---------конец ЦВЕТ: Коричневый 1 ------------------*/
+
+
+/*  Ниже НЕ ТРОГАТЬ!!! Стандартные настройки  */
+form.standart {
+	border-radius: 5px;
+	text-align: center;
+	padding: 3px 15px 7px 15px;
+	font: 13px Arial;
+}
+form.standart input, form.standart textarea {
+	display: block;
+	color: #303030;
+	border-radius: 4px;
+	font: 13px Arial;
+	padding: 7px 2px 7px 8px;
+	//height: 30px;
+	background-color: #fff;
+	clear: both;
+	border: none;
+	width: 96%;
+	margin: 0px auto 7px auto;
+/*behavior: url("/~ef-lib/efincludes/css/PIE.htc");*/
+}
+form.standart textarea {
+	//height: 90px;
+}
+form.standart input::-webkit-input-placeholder, form.standart textarea::-webkit-input-placeholder {
+	color: #595959;
+}
+form.standart input:-moz-placeholder {
+	color: #595959;
+}
+
+form.standart input[type=submit] {
+	width: 114px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	padding: 0px;
+	margin: 0px auto;
+	background-image: url("/img_0/button_bg.png");
+	background-position: top left, left bottom;
+	background-repeat: repeat-x, repeat-x;
+	font: 500 14px Arial;
+	cursor: pointer;
+	margin-bottom: 7px;
+
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+form.standart div.h {
+	font: bold 16px Arial;
+	margin: 12px auto 10px auto;
+	text-align: center;
+	height: 28px;
+}
+form.standart hr {
+height: 0px;
+width: 90%;
+border-width: 1px 0px 1px 0px;
+}
+/*----------------------------------------------------------------*/
+/*--- конец Стандартная форма "Обратная связь" 1280,тип 1 ---------*/
+/*----------------------------------------------------------------*/
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++ Стандартная форма "Обатная связь" 1280, тип 1 ++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*  Выбрать нужный ЦВЕТ:  */
+/*+++++++++++++ ЦВЕТ: Зеленый 1 ++++++++++++++++++*/
+form.standart, form.standart input[type=submit] {
+	border: 1px solid #669900;
+}
+form.standart {
+	background-color: #9acc37;
+	color: #2c3401;
+}
+form.standart input[type=submit] {
+	background-color: #6d8f2b;
+	color: #fff;
+}
+form.standart input[type=submit]:hover {
+	background-color: #a3cc2b;
+}
+form.standart div.h {
+	color: #fff;
+}
+form.standart hr {
+border-top: 1px solid #6d881b;
+border-bottom: 1px solid #c0d18a;
+}
+/*---------конец ЦВЕТ: Зеленый 1 ------------------*/
+
+
+/*  Ниже НЕ ТРОГАТЬ!!! Стандартные настройки  */
+form.standart {
+	border-radius: 5px;
+	background-image:  url("/~ef-lib/efincludes/images/std_form/type1/std_form_border_bg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+	padding: 3px 15px 7px 15px;
+	font: 13px Arial;
+}
+form.standart input, form.standart textarea {
+	display: block;
+	color: #303030;
+	border-radius: 4px;
+	font: 13px Arial;
+	padding: 7px 8px;
+	//height: 30px;
+	background-color: #fff;
+	clear: both;
+	border: none;
+	width: 96%;
+	margin: 0px auto 7px auto;
+/*behavior: url("/~ef-lib/efincludes/css/PIE.htc");*/
+}
+form.standart textarea {
+	//height: 90px;
+}
+form.standart input::-webkit-input-placeholder, form.standart textarea::-webkit-input-placeholder {
+	color: #595959;
+}
+form.standart input:-moz-placeholder {
+	color: #595959;
+}
+
+form.standart input[type=submit] {
+	width: 114px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	padding: 0px;
+	margin: 0px auto;
+	background-image: url("/~ef-lib/efincludes/images/std_form/type1/std_form_border_bg.png"), url("/~ef-lib/efincludes/images/std_form/type1/std_form_input_bg.png");
+	background-position: top left, left bottom;
+	background-repeat: repeat-x, repeat-x;
+	font: 500 14px Arial;
+	cursor: pointer;
+	margin-bottom: 7px;
+
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+form.standart div.h {
+	font: bold 16px Arial;
+	margin: 12px auto 10px auto;
+	text-align: center;
+	height: 28px;
+	background-image: url("/~ef-lib/efincludes/images/std_form/type1/std_form_hr_green.gif");
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+form.standart hr {
+height: 0px;
+width: 90%;
+border-width: 1px 0px 1px 0px;
+}
+/*----------------------------------------------------------------*/
+/*--- конец Стандартная форма "Обатная связь" 1280,тип 1 ---------*/
+/*----------------------------------------------------------------*/

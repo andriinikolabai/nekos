@@ -1,0 +1,217 @@
+html, body {height: 100%; padding: 0px; margin: 0px;}
+
+body {background: transparent url(/images/~lst/site_bg.jpg) repeat top left;}
+#main_center {background: transparent url(/images/~lst/site_top_bg.jpg) repeat-x top left;}
+
+#site_wrapper {width: 100%; height: 100%; border-collapse: collapse; margin: 0px auto; table-layout: fixed;}
+
+#top_block_1, #top_block_2 {vertical-align: top;}
+#top_block_2_tbl {width: 100%;}
+
+/*Chrome compatible styles*/
+#top_block_1 .fixed-height-block {height: 101px;}
+
+#head-right,
+#top_block_2,
+#top_block_2_tbl,
+#top_block_2 .fixed-height-block {height: 305px;}
+
+#outer_bot_block_1_l img {height: 17px;}
+
+#ebpn_cell {height: 40px; vertical-align: middle;}
+#EBPN h1 {
+	font: normal 23px/40px Verdana, sans-serif;
+	color: #dd1129;
+	padding: 0px 0px 0px 47px;
+	margin: 0px 0px 0px 308px;
+}
+
+#head_shadow, #head_shadow div.bg {height: 17px;}
+
+#head_shadow div.bg {
+	position: relative;
+	background: transparent url(head_shadow.png) no-repeat top left;
+}
+
+#content_col_left {height: 100%; background: transparent url(left_bg.gif) repeat-y top right;}
+#content_block_left {height: 100%; width: 100%;}
+#content_col_right {height: 100%;}
+
+#content_top div,
+#content_bot div {
+	position: relative;
+}
+
+#content_top, #content_top div {height: 9px;}
+#content_bot, #content_bot div {height: 9px;}
+
+#content_top div {background: transparent url(content_top.png) no-repeat top left;}
+#content_bot div {background: transparent url(content_bot.png) no-repeat top left;}
+.EBPT {background: transparent url(content_bg.gif) repeat-y top left;}
+#footer, .footer-outer-bg {background: #35220F}
+
+#footer_tbl {width: 100%; height: 100%;}
+#under_menu_block_1 {height: 68px;}
+
+.company-name {font: bold 52px Verdana, sans-serif; color: #F3C533;}
+
+body, table {font: 14px/16px Verdana, sans-serif; color: #1E1E1E;}
+
+.fixed-height-block {width: 100%; height: 100%; overflow: hidden;}
+.fixed-tbl {table-layout: fixed;}
+
+.EBPT {height: 100%; vertical-align: top; padding: 0px 25px 25px 25px;}
+#EBPT {/height: 100%; text-align: left;}
+
+/* MENU styles */
+#menu1_top {height: 11px; background: transparent url(menu_top.jpg) no-repeat top left;}
+#menu1_cell {background: transparent url(menu_bg.jpg) repeat-y top right;}
+#menu1_bot {height: 10px; background: transparent url(menu_bot.jpg) no-repeat top left;}
+
+#gPageMenu1 {width: 268px; margin: 0px 6px 0px 38px;}
+
+td.menutd table, td.menutd a.lmenu1 {color: #ffffff; font: bold 14px Verdana, sans-serif; text-decoration: none;}
+td.menutdOv table, td.menutdOv a.lmenu1, .current table {color: #ffffff; font: bold 14px Verdana, sans-serif; text-decoration: none;}
+
+td.submenu table, td.submenu a.lmenu3 {color: #38230E; font: normal 14px Verdana, sans-serif; text-decoration: none;}
+td.submenuOv table, td.submenuOv a.lmenu3, .subCur table {color: #38230E; font: normal 14px Verdana, sans-serif; text-decoration: underline;}
+
+td.dmenutd21 table, td.dmenutd21 a.lmenu2 {color: #ffffff; font: 12px Verdana, sans-serif; text-decoration: none;}
+td.dmenutd21a table, td.dmenutd21a a.lmenu2 {color: #ffffff; font: 12px Verdana, sans-serif; text-decoration: none;}
+.current table {text-decoration: none;}
+.over, .over table {text-decoration: underline;}
+
+td.menutd {background: transparent url(menu1_bg.jpg) repeat-y top left; border: none; padding: 0px 0px 0px 0px; cursor: hand; cursor: pointer; }
+td.menutdOv, .current {background: transparent url(menu1a_bg.jpg) repeat-y top left; border: none; padding: 0px 0px 0px 0px; cursor: hand; cursor: pointer;}
+
+td.submenu {cursor: pointer; padding: 1px 0px 2px 50px;}
+td.submenuOv, .subCur { cursor: pointer; padding: 1px 0px 2px 50px;}
+
+td.dmenutd21 {background-color: #5FB21E; cursor: hand; cursor: pointer; padding: 3px 0px 3px 10px;}
+td.dmenutd21a {background-color: #FF002F; cursor: hand; cursor: pointer; padding: 3px 0px 3px 10px;}
+
+.arrow {background: transparent url(arr.gif) no-repeat left center;}
+.submenuOv .arrow, .subCur .arrow, .submenu .arrow {background-image: url(arr_dark.gif);}
+.noArrow {background: transparent url(1px.gif) no-repeat left center;}
+
+.item {background: transparent url(menu1a_item.jpg) no-repeat center center;}
+.menutd .item {background-image: url(menu1_item.jpg);}
+
+.menu1text {padding: 9px 0px 10px 0px;}
+.dmenutab {background-color: #5FB21E; width: 200px;}
+.dmenu_border {border: 1px solid #4A891D; padding: 0px;}
+.dmenu_delimiter {background-color: #4A891D;}
+.menu1_delimiter {background: transparent url(menu1_delimiter.gif) no-repeat center left;}
+
+/* HOR MENU styles */
+#gPageMenu2 {background: transparent url(menu2_cbg.jpg) repeat-x top left; float: left;}
+/*#menu2_cell {height: 1px;}*/
+#menu2_wrapper {/*height: 1px;*/ position: relative;}
+#gPageMenu2 {height: 61px; position: absolute; left: 310px; top: -78px;}
+
+td.menu2td table, td.menu2td a.lmenu21 {color: #ffffff; font: bold 16px Verdana, sans-serif; text-decoration: none; font-style: italic;}
+td.menu2tdOv table, td.menu2tdOv a.lmenu21, .current2 table {color: #ffffff; font: bold 16px Verdana, sans-serif; text-decoration: none; font-style: italic;}
+
+.current2 table {text-decoration: none; vertical-align: middle;}
+.over, .over table {text-decoration: underline;}
+
+td.menu2td {height: 61px; border: none; padding: 0px 0px 0px 0px; cursor: hand; cursor: pointer; }
+td.menu2tdOv, .current2 {height: 61px; background-color: #FF002F; border: none; padding: 0px 0px 0px 0px; cursor: hand; cursor: pointer;}
+
+.menu2text {text-align: center; background: transparent url(menu2ca_bg.jpg) repeat-x top left;}
+.menu2td .menu2text {background-image: none;}
+
+.menu2text {text-align: center; height: 100%;}
+.dmenu2tab {background-color: #F2D2AD; width: 200px;}
+.dmenu2_border {border: 1px solid #DCB07B; padding: 0px;}
+.dmenu2_delimiter {background-color: #F2EEEE;}
+.menu2_delimiter {width: 3px; background: transparent url(menu2_delimiter.jpg) no-repeat center center;}
+
+.rel {position: relative; display: block; z-index: 100;}
+.pR10 {padding-right: 10px;}
+.menuHid {visibility: hidden; display: none; position: absolute; top: 0px;}
+.curDef {cursor: default;}
+
+/* EFFECT link styles */
+a.effect {color: #FFFEFE; font: 12px Verdana, sans-serif; margin-right: 4px}
+a:link.noDeco, a:visited.noDeco {text-decoration: none;}
+pre a img, .noBorder {border-width: 0px}
+
+/*Content styles*/
+p {text-indent: 0px; line-height: 1.3em; margin: 0px 0px 10px 0px;}
+hr {color: #C2C2C2; height: 1px;}
+li {padding: 4px; line-height: 1.3em;}
+ol, ul {margin-top: 0px;}
+table {line-height: 1.3em;}
+
+h1, h2, h3, h4 {color: #1E1E1E;}
+h1 {font: 20px Arial, sans-serif;}
+h2 {font: bold 18px Verdana, sans-serif;}
+h3 {margin: 20px 0px 6px 0px; font: bold 16px Verdana, sans-serif;}
+h4 {margin: 20px 0px 6px 0px; font: bold 14px Verdana, sans-serif;}
+
+a {color: #8096b0; text-decoration: underline;}
+a:hover {text-decoration: none;}
+
+A:link img, A:visited img {border-style: solid; border-color: #000000;}
+A:hover img, A:active img {border-style: solid; border-color: #CC3333;}
+
+/*Vtable, htable*/
+table.htable, table.vtable, table.htable td, table.vtable td, table.htable th, table.vtable th {border-color: #AAAAAA; border-style: solid;}
+.htable th, .vtable th {background-color: #40751d; color: #ffffff;}
+.htable td, .vtable td {padding: 3px;}
+table.htable {border-width: 0px 0px 0px 1px;}
+table.vtable {border-width: 0px 1px 1px 0px;}
+.htable th {border-width: 1px 1px 1px 0px;}
+.htable td {border-width: 0px 1px 1px 0px;}
+.vtable th, .vtable td {border-width: 1px 0px 0px 1px;}
+
+
+/*Styles for page make-up*/
+.aL {text-align: left;}
+.aC {text-align: center;}
+.aR {text-align: right;}
+.aJ {text-align: justify;}
+
+.vT {vertical-align: top;}
+.vM {vertical-align: middle;}
+.vB {vertical-align: bottom;}
+
+.h100 {height: 100%;}
+.w100 {width: 100%;}
+
+p.indent {text-indent: 20px;}
+table.centered td {text-align: center;}
+
+img.left {margin: 5px 5px 5px 0px;}
+img.right {margin: 5px 0px 5px 5px;}
+
+/*Form styles*/
+.form_t select {font: 12px Arial, sans-serif}
+.form_t textarea, .form_t input {width: 250px}
+.form_t input.button, .form_t input.radio {width: auto}
+.form_t input.radio {border: none}
+.form_tNoticetd {border-top: 1px solid #46728F;}
+
+form table, input, textarea {border: 1px solid #40751d;}
+form th {border-bottom: 1px solid #40751d; padding: 2px;}
+form th, input.button {background-color: #40751d; color: #ffffff;}
+
+form table {font: 11px Verdana, sans-serif;}
+form td {padding: 3px 6px; vertical-align: top;}
+input, textarea {font: 11px Verdana, sans-serif;}
+
+form.standart table {width: 370px;}
+form.standart input, form.standart textarea {width: 230px;}
+form.standart textarea {height: 100px;}
+form.standart input.button {margin-top: 3px; width: 100px;}
+
+/*Flash styles*/
+.divFlash {position: relative; display: block; width: 300px; height: 450px;}
+.flashContent {position: absolute; display: block; top: 0px; left: 0px; z-index: 2; text-align: center;}
+.noFlashContent {position: absolute; display: block; top: 0px; left: 0px; z-index: 1; width: 100%; text-align: center;}
+
+.flashContentWrapper {position: relative;}
+.flashAltImage {display: block; position: absolute; top: 0px; left: 0px;}
+.hasFlash .flashAltImage {display: none;}
+.flashObject {position: absolute; top: 0px; left: 0px;}

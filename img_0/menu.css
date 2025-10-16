@@ -1,0 +1,103 @@
+/* ========================================================================================================
+ * MENU 1 styles
+ * ========================================================================================================*/
+#gPageMenu1 {width: 269px; margin: 0px 3px 0px 37px;}
+
+.menu1-item, .submenu1-item, .dmenu1-item {cursor: default;}
+.menu-item-linked {cursor: pointer;}
+
+/*
+ * Level 1
+ */
+.menu1-item table, td.menu1-item a.menu1link {
+	color: #ffffff;
+	font: bold 14px/16px Verdana, sans-serif;
+	text-decoration: none;
+}
+.menu1tdOv table, td.menu1tdOv a.menu1link,
+.current1td table, .current1tdOv table {background: yellow; color: green}
+.current1tdOv table {
+	text-decoration: underline;
+}
+
+.menu1text {padding: 3px 0px 3px 0px;}
+.menu1_l img {height: 40px;}				/*Min height*/
+.menu1_delimiter {height: 2px;}
+
+.menu1_l {background-repeat: no-repeat; background-position: center center;}
+.menu1td .menu1_l {background-image: url(menu1_item.jpg);}
+
+.menu1-item {background: url(vma_bg.jpg) repeat-y top left;}
+.menu1td {background: url(vm_bg.jpg) repeat-y top left;}
+
+.menu1-item .inner {background: url(vma_bbg.jpg) no-repeat bottom left;}
+.menu1-item .outer {background: url(vma_tbg.jpg) no-repeat top left;}
+
+.menu1td .inner {background: url(menu1_bg.jpg) repeat-y top left;}
+.menu1td .outer {background: url(vm_tbg.jpg) no-repeat top left;}
+
+/*
+ * Level 2
+ */
+.submenu1-item table, td.submenu1-item a.submenu1link  {
+	color: #ffffff;
+	font: normal 14px/16px Verdana, sans-serif;
+	text-decoration: none;
+}
+.submenu1tdOv table, td.submenu1tdOv a.submenu1link,
+.subcurrent1td  table, .subcurrent1tdOv table {
+	text-decoration: underline;
+}
+.subcurrent1tdOv table {text-decoration: none;}
+
+.submenu1text {padding: 3px 0px 3px 0px;}
+.closed_submenu1_delimiter {height: 2px;}
+.submenu1_cell_open .closed_submenu1_delimiter {display: none;}
+
+/*.submenu1-item .inner {background: url(submenu1td_bg.png) no-repeat top left;}
+.submenu1tdOv .inner, .subcur1td .inner {background: url(submenu1tda_bg.png) no-repeat top left;}*/
+.submenu1_tbl {width: 219px; margin: 0px 0px 0px 49px;}
+.submenu1_wrap_inner {padding: 4px 0px 4px 0px;}
+
+
+/*
+ * Level 3
+ */
+.dmenu1-item table, .dmenu1-item a {
+	color: #ffffff;
+	font: 13px/16px Arial, sans-serif;
+	text-decoration: none;
+}
+.dmenu1tdOv table, .dmenu1tdOv a {color: green}
+
+.dmenu1-item {background-color: #3e6d1d;}
+.dmenu1tdOv {background: none; background-color: yellow;}
+.dmenu1_delimiter {background-color: #24470b;}
+/*
+.dmenu_top_tbl, .dmenu_bot_tbl {width: 100%;}
+.dmenu1_t, .dmenu1_b {height: 5px;}
+
+.dmenu1_tl {background: url(dmenu1_tl.png) no-repeat left top;}
+.dmenu1_t {background: url(dmenu1_t.gif) repeat-x left top;}
+.dmenu1_tr {background: url(dmenu1_tr.png) no-repeat left top;}
+
+.dmenu1_bl {background: url(dmenu1_bl.png) no-repeat left top;}
+.dmenu1_b {background: url(dmenu1_b.gif) repeat-x left top;}
+.dmenu1_br {background: url(dmenu1_br.png) no-repeat left top;}
+*/
+
+.dmenu_top_tbl, .dmenu_bot_tbl {width: 100%;}
+.dmenu1cell, .dmenu1_delimiter_r, .dmenu1_border_left {background-color: #24470b; width: 1px;}
+
+/*.dmenu1-item .arrow {background-image: url(arr.gif);}*/
+
+.dmenu1tab {width: 200px;}
+.dmenu1text {padding: 5px 0px 5px 0px;}
+.submenuDivVis {display: none;}
+
+/*.dmenu1td .arrow {background-image: url(arr_dark.gif);}*/
+.arrow-down {height: 100%; min-height: 17px; background: url(menu1_varr.png) no-repeat center center;}
+.arrow-cell {vertical-align: middle;}
+div.arrow {height: 7px;}
+
+td.blank, td.blank table, td.blank a, td.blank a.menu1link {cursor: default; font-style: italic;}
